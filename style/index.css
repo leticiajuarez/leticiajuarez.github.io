@@ -36,7 +36,13 @@ li#title {
 }
 
 .font-weight-bold {
+    /*font-weight:bold;*/
+    color:#a3a4a5
+}
+
+.JMP {
     font-weight:bold;
+    font-size:1.2rem;
 }
 
 .nav-item {
@@ -103,9 +109,10 @@ a {
 }
 
 .link {
-    color:#2fb2ea;
+    /*color:#2fb2ea;*/
+    color:#4b98d5;
     text-decoration:underline;
-    font-size:1.2rem;
+    font-size:1.3rem;
 }
 
 .research-img {
