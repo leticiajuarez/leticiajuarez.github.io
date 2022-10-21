@@ -122,4 +122,12 @@ a {
         margin-bottom:2rem;
     }
 
+    .main-row {
+        flex-direction:column;
+    }
+
+    .research-img {
+        width:100%;
+    }
+
 }
