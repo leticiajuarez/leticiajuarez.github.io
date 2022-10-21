@@ -16,6 +16,10 @@ li {
     font-size:1rem;
 }
 
+li#title {
+    font-size:0.8rem;
+}
+
 
 .my-nav-bar {
     background-color: white;
@@ -99,9 +103,9 @@ a {
 }
 
 .link {
-    color:#00b2ff;
+    color:#2fb2ea;
     text-decoration:underline;
-    font-size:1.4rem;
+    font-size:1.2rem;
 }
 
 .research-img {
