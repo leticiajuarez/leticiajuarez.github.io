@@ -117,6 +117,7 @@ a {
 
 .research-img {
     width:28%;
+    height:fit-content;
     margin-right:2rem;
 }
 
