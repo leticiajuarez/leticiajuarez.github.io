@@ -1,0 +1,124 @@
+body {
+    font-family:Lato, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Agrandar font */
+p, li {
+    font-size:1.5rem;
+}
+
+
+.my-nav-bar {
+    background-color: white;
+    box-shadow:1px 1px 12px 0 rgb(1 16 26 / 10%), 14px 14px 40px 0 rgb(118 126 173 / 8%);
+    padding:0.8rem 2.5rem;
+}
+
+.nav-bar-img {
+    width:4rem;
+}
+
+.navbar-collapse {
+    flex-grow:0;
+}
+
+.font-weight-bold {
+    font-weight:bold;
+}
+
+.nav-item {
+    padding-left:5rem !important;
+}
+
+.nav-link {
+    
+    font-size:1.3rem;
+    font-weight:100;
+    transition:300ms;
+}
+
+.nav-link:hover {
+    transform:scale(1.1)
+}
+
+.main-title {
+    color: #d25aa2;
+    font-size: 4.5rem;
+    letter-spacing: 0.4rem;
+    font-weight: 100;
+    text-align:center;
+    font-family: 'Bodoni Moda', serif;
+}
+
+.second-title {
+    color: #d25aa2;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    font-weight: 100;
+    text-align:center;
+}
+
+.main-img {
+    width:100%;
+}
+
+.about-me {
+    font-weight:bold;
+    font-size:2rem;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.link-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:#abbce2;
+}
+
+.main-col {
+    width:50%;
+}
+
+.negrita {
+    font-weight:bold;
+/*     color:#00b2ff;
+    text-decoration:underline; */
+}
+
+.link {
+    color:#00b2ff;
+    text-decoration:underline;
+    font-size:1.4rem;
+}
+
+.research-img {
+    width:28%;
+    margin-right:2rem;
+}
+
+.btn-primary {
+    background-color: #d25aa2;
+    border: none;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.education-list li {
+    list-style:none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .main-col {
+        width:100%;
+    }
+
+    .main-img {
+        margin-bottom:2rem;
+    }
+
+}
