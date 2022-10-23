@@ -150,4 +150,8 @@ a {
         width:100%;
     }
 
+    #second-title {
+        display:none;
+    }
+
 }
