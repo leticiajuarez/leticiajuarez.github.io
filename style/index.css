@@ -85,6 +85,19 @@ li#title {
     
 }
 
+
+.second-title2 {
+    /*color: #d25aa2;
+    color: #e20188;*/
+    color: #323e9b;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    font-weight: 100;
+    text-align:center;
+    
+}
+
+
 .main-img {
     width:100%;
 }
