@@ -62,8 +62,9 @@ li#title {
 
 .main-title {
      /*color: #d25aa2;
-    color: #323e9b;*/
-    color: #e20188;
+    color: #323e9b;
+    color: #e20188;*/
+    color: #323e9b;
     font-size: 4.5rem;
     letter-spacing: 0.4rem;
     font-weight: 100;
@@ -73,8 +74,8 @@ li#title {
 
 .second-title {
     /*color: #d25aa2;
-    color: #323e9b;*/
-    color: #e20188;
+    color: #e20188;*/
+    color: #323e9b;
     font-size: 1.5rem;
     letter-spacing: 0.4rem;
     font-weight: 100;
@@ -136,7 +137,7 @@ a {
 
 
 .btn-primary {
-    background-color: #e20188;
+    background-color: #8097e4;
     border: none;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
