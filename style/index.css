@@ -108,6 +108,7 @@ li#title {
 
 .main-img {
     width:100%;
+    height:auto;
 }
 
 .about-me {
@@ -154,7 +155,8 @@ a {
 }
 
 .research-img {
-    width:28%;
+    width:35%;
+    float:left;
     height:fit-content;
     margin-right:2rem;
 }
@@ -171,7 +173,16 @@ a {
     list-style:none;
 }
 
+.research-block {
+    background-color: whitesmoke;
+    border: #e1e1e1 solid 1px;
+    padding:1rem;
+}
+
 @media only screen and (max-width: 1200px) {
+    .second-title {
+        letter-spacing: 0.2rem;
+    }
     .main-col {
         width:100%;
     }
