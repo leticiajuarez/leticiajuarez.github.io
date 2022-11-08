@@ -174,7 +174,8 @@ a {
 }
 
 .research-block {
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
+    background-color: #f6faff;
     border: #e1e1e1 solid 1px;
     padding:1rem;
 }
