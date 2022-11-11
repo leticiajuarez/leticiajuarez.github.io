@@ -119,6 +119,10 @@ li#title {
 }
 
 .about-me2 {
+    font-size:2rem;
+}
+
+.about-me3 {
     text-decoration:underline;
     font-size:1.5rem;
 }
