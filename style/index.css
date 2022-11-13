@@ -107,6 +107,9 @@ li#title {
     text-align:center;
 }
 
+img {
+    height:auto;
+}
 
 .main-img {
     width:100%;
@@ -215,6 +218,10 @@ a {
     }
 
     #second-title {
+        display:none;
+    }
+
+    .second-title2 {
         display:none;
     }
 
