@@ -207,6 +207,8 @@ a {
 
     .main-img {
         margin-bottom:2rem;
+        align-self: flex-start;
+        object-fit: cover;
     }
 
     .main-row {
@@ -215,6 +217,7 @@ a {
 
     .research-img {
         width:100%;
+        height:auto;
     }
 
     #second-title {
