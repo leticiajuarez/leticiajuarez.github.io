@@ -197,7 +197,42 @@ a {
     padding:1rem;
 }
 
+.teaching-block {
+    box-shadow:0 2px 4px rgb(0, 0, 0, 0.2)
+}
+
+.uni-logo {
+    width:50px;
+    height:50px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.line {
+    display:block;
+    width:55px;
+    flex-grow:1;
+    border-left:solid 2px #323e9b;
+    position:relative;
+}
+
+.circle {
+    top: -2px;
+    position: absolute;
+    height: 40px;
+    right: 30px;
+    width: 40px;
+    background-color: #323e9b;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
 @media only screen and (max-width: 1200px) {
+
+    .line {
+        display:none;
+    }
     .second-title {
         letter-spacing: 0.2rem;
     }
