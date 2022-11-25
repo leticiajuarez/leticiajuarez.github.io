@@ -198,6 +198,7 @@ a {
 }
 
 .teaching-block {
+    width:90% !important;
     box-shadow:0 2px 4px rgb(0, 0, 0, 0.2)
 }
 
@@ -220,7 +221,7 @@ a {
     top: -2px;
     position: absolute;
     height: 40px;
-    right: 30px;
+    right: 107px;
     width: 40px;
     background-color: #323e9b;
     border-radius: 50%;
