@@ -190,11 +190,8 @@ a {
 }
 
 .research-block {
-    /*background-color: whitesmoke;*/
-    background-color: white;
-   /*border: #e1e1e1 solid 1px;*/
-    border: whitesmoke solid 4px;
     padding:1rem;
+    box-shadow:0 2px 4px rgb(0, 0, 0, 0.2);
 }
 
 .teaching-block {
@@ -226,6 +223,12 @@ a {
     background-color: #b39bd8;
     border-radius: 50%;
     display: inline-block;
+}
+
+@media only screen and (max-width: 1399px) {
+    .circle {
+        right:90px;
+    }
 }
 
 
