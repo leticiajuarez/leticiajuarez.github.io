@@ -164,10 +164,18 @@ a {
     font-size:1.4rem;
     font-family: system-ui;
 }
+
+.link2 {
+    /*color:#2fb2ea;*/
+    color:#080808;
+    font-size:1rem;
+}
+
 .linknounder {
     /*color:#2fb2ea;*/
+    text-decoration:underline;
     color:#8097e4;
-    font-size:1.3rem;
+    font-size:1rem;
 }
 
 .research-img {
@@ -190,7 +198,11 @@ a {
 }
 
 .research-block {
-    padding:1rem;
+    padding:0.5rem;
+    box-shadow:0 2px 4px rgb(0, 0, 0, 0.2);
+}
+.research-block2 {
+    padding:0.5rem;
     box-shadow:0 2px 4px rgb(0, 0, 0, 0.2);
 }
 
