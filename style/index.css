@@ -178,6 +178,12 @@ a {
     font-size:1rem;
 }
 
+.linknounder2 {
+    /*color:#2fb2ea;*/
+    text-decoration:underline;
+    color:#8097e4;
+    font-size:1.2rem;
+}
 .research-img {
     width:35%;
     float:left;
