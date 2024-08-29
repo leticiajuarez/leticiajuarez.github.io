@@ -159,9 +159,10 @@ a {
 
 .link {
     /*color:#2fb2ea;*/
-    color:#8097e4;
+    color:#566599;
+    /*color:#8097e4;*/
     text-decoration:underline;
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-family: system-ui;
 }
 
