@@ -141,6 +141,12 @@ a {
     font-size:1.4rem;
 }
 
+.sub{
+    color:#977BBA;
+    font-size:1.0rem;
+    font-family: cursive;
+}
+
 .link-icon {
     font-size: 2rem;
     margin-bottom: 1rem;
