@@ -142,9 +142,10 @@ a {
 }
 
 .sub{
-    color:#977BBA;
     font-size:1.0rem;
     font-family: cursive;
+    color:#977BBA;
+    text-decoration:underline;
 }
 
 .link-icon {
