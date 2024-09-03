@@ -100,11 +100,11 @@
                 <!--<p class="about-me">About me</p>-->
                 <!-- <h1 class="main-title">Leticia Juarez</h1>-->
                 <div class="row-no-gutters mt-3">
-                <p>Welcome!</p>
-                <p>I am an Economist at the Research Department of the Inter-American Development Bank (IDB). I work on the fields of <span class="negrita">International Economics, Macroeconomics, Environmental Economics</span> <br>  </p>      
-                <p> I received my Ph.D. in Economics from the <span class="link" > University of Michigan</span> in 2023. </p>
+                <p class="body-text">Welcome!</p>
+                <p class="body-text">I am an Economist at the Research Department of the Inter-American Development Bank (IDB). I work on the fields of <span class="negrita">International Economics, Macroeconomics, Environmental Economics</span> <br>  </p>      
+                <p class="body-text"> I received my Ph.D. in Economics from the <span class="link" > University of Michigan</span> in 2023. </p>
 <p> Feel free to reach out to me at <a href="mailto:leticiaj@umich.edu" class="link">leticiaj@umich.edu</a> </p>
-                    <p> You can find my CV <a href="cv.html" class="link">here.</a></p>
+                    <p class="body-text"> You can find my CV <a href="cv.html" class="link">here.</a></p>
                     <!--My research focuses on  .My current research projects study as .-->
           </div>
                 <div class="row-no-gutters mt-6">
@@ -140,7 +140,7 @@
                                     <a class="paper" target="_blank" href="https://leticiajuarez.github.io/pdf/JMP_LeticiaJuarez_Michigan.pdf">
                                         Buyer Market Power and Exchange Rate Pass-through
                                     </a>
-                                    <a class="sub">[Submitted]</a>
+                                    <a class="underline">[Submitted]</a>
                                 </div>
                                 <i class="fa fa-solid fa-chevron-down chevron-icon"></i>
                             </div>
@@ -165,9 +165,12 @@
                                     <a class="paper" target="_blank" href="https://leticiajuarez.github.io/pdf/LNA.pdf">
                                         The Consequences of Non-Tariff Trade Barriers: Theory and Evidence from Import Licenses in Argentina
                                     </a> 
-                                    joint with
-                                    <a href="https://www.com/" class="font-weight-bold">Federico Bernini</a>    
-                                    <a href="https://www.elembergman.com/" class="font-weight-bold">Ezequiel Garcia Lembergman</a>
+                                    <span class="authors">
+                                        (joint with
+                                        <a href="https://www.com/" class="underline">Federico Bernini</a>    
+                                        <a href="https://www.elembergman.com/" class="underline">Ezequiel Garcia Lembergman</a>
+                                        )
+                                    </span>
                                 </div>
                                 <i class="fa fa-solid fa-chevron-down chevron-icon"></i>
                             </div>
@@ -192,10 +195,13 @@
                                     <a class="paper" target="_blank" href="https://leticiajuarez.github.io/pdf/TAM.pdf">
                                         From Tax Amnesty to Bank Credit: The Transmission of Asset Repatriations through Bank-Firm Relationships
                                     </a>
-                                    joint with
-                                    <a href="https://www.com/" class="font-weight-bold">Federico Bernini</a>,
-                                    <a href="https://pauladonaldson.github.io/" class="font-weight-bold">Paula Donaldson</a>,
-                                    <a href="https://www.elembergman.com/" class="font-weight-bold">Ezequiel Garcia Lembergman</a>
+                                    <span class="authors">
+                                        (joint with
+                                        <a href="https://www.com/" class="underline">Federico Bernini</a>,
+                                        <a href="https://pauladonaldson.github.io/" class="underline">Paula Donaldson</a>,
+                                        <a href="https://www.elembergman.com/" class="underline">Ezequiel Garcia Lembergman</a>
+                                        )
+                                    </span>
                                 </div>
                                 <i class="fa fa-solid fa-chevron-down chevron-icon"></i>
                             </div>
@@ -210,41 +216,53 @@
                 </div>
             </div>
             <p class="about-me2 mt-3">Work in Progress</p>
-                <div class="d-flex">
-                    <!-- First Work in Progress -->
-                    <div class="mb-4" id="tradecredit">
-                        <div class="card-body">
-                            <ul>
-                                <li>
-                                    <a class="paper" target="_blank" href="https://leticiajuarez.github.io/pdf/ERPTcredit.pdf">
-                                        Trade Credit, Debt and Exchange Rate in China
-                                    </a>
-                                    joint with 
-                                    <a href="https://sites.google.com/umich.edu/georgecui/home?authuser=0" class="font-weight-bold">George Cui</a>, 
-                                    <a href="https://lsa.umich.edu/econ/people/phd-students/xsguo.html" class="font-weight-bold">Xiaosheng Guo</a>
-                                </li>
-                            </ul>
-                            <div class="d-flex main-row px-4">
-                                <p id="abs">
-                                    This paper studies how the effects of exchange rate shocks on international prices vary with trade credit. We put together a dataset that contains customs data and bank statements for the universe of Chinese exporters for the period 2001-2012. We start by documenting some stylized facts. First, we observe substantial complementarity between trade credit and bank loans. Second, the interests paid by exporters to domestic banks respond to exchange rate shocks. Third, exporters’ international prices respond significantly less for products sold by exporters issuing more trade credit (more complete exchange rate pass-through). Motivated by these stylized facts, we model an open economy with heterogeneous firms. In the model, exporters in the home country borrow from domestic banks to finance their production activities, which translates into a credit premium in their export prices. This paper introduces a trade credit premium channel: exchange rate shocks affect domestic banks’ expectations of exporters' profits, and, in this way, impact interest rates (financial costs) offered to exporters. The changes in interest rate affect the international prices charged by these exporters. With the estimates from the model, we conduct the following counterfactual: reduce financial frictions between banks and exporters.
-                                </p>
-                            </div>
+                <!-- First Work in Progress -->
+                <div class="research-block mb-4">
+                    <div class="card-body">
+                        <ul class="mb-0" data-bs-toggle="collapse" href="#firstWorkInProgressCollapse" role="button" aria-expanded="true" aria-controls="firstWorkInProgressCollapse">
+                            <li>
+                                <div class="d-flex justify-content-between align-items-center research-container">
+                                    <div>
+                                        <a class="paper" target="_blank" href="https://leticiajuarez.github.io/pdf/ERPTcredit.pdf">
+                                            Trade Credit, Debt and Exchange Rate in China
+                                        </a>
+                                        <span class="authors">(joint with 
+                                            <a href="https://sites.google.com/umich.edu/georgecui/home?authuser=0" class="underline">George Cui</a>, 
+                                            <a href="https://lsa.umich.edu/econ/people/phd-students/xsguo.html" class="underline">Xiaosheng Guo</a>
+                                            )</span>
+                                    </div>
+                                    <i class="fa fa-solid fa-chevron-down chevron-icon"></i>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="collapse mt-3" id="firstWorkInProgressCollapse">
+                            <p id="abs">
+                                This paper studies how the effects of exchange rate shocks on international prices vary with trade credit. We put together a dataset that contains customs data and bank statements for the universe of Chinese exporters for the period 2001-2012. We start by documenting some stylized facts. First, we observe substantial complementarity between trade credit and bank loans. Second, the interests paid by exporters to domestic banks respond to exchange rate shocks. Third, exporters’ international prices respond significantly less for products sold by exporters issuing more trade credit (more complete exchange rate pass-through). Motivated by these stylized facts, we model an open economy with heterogeneous firms. In the model, exporters in the home country borrow from domestic banks to finance their production activities, which translates into a credit premium in their export prices. This paper introduces a trade credit premium channel: exchange rate shocks affect domestic banks’ expectations of exporters' profits, and, in this way, impact interest rates (financial costs) offered to exporters. The changes in interest rate affect the international prices charged by these exporters. With the estimates from the model, we conduct the following counterfactual: reduce financial frictions between banks and exporters.
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="d-flex">
-                    <!-- Second Work in Progress -->
-                    <div  id="gender">
-                        <div class="card-body">
-                            <ul>
-                                <li>
-                                    <a class="paper" target="_blank" href="">
-                                        General Equilibrium Effects of Production Networks and Environmental Policies
-                                    </a> 
-                                    with 
-                                    <a href="https://www.elembergman.com/" class="font-weight-bold">Ezequiel Garcia-Lembergman</a>
-                                </li>
-                            </ul>
+                <div class="research-block mb-4">
+                    <div class="card-body">
+                        <ul class="mb-0" data-bs-toggle="collapse" href="#secondWorkInProgressCollapse" role="button" aria-expanded="true" aria-controls="secondWorkInProgressCollapse">
+                            <li>
+                                <div class="d-flex justify-content-between align-items-center research-container">
+                                    <div>
+                                        <a class="paper" target="_blank" href="">
+                                            General Equilibrium Effects of Production Networks and Environmental Policies
+                                        </a> 
+                                        <span class="authors">
+                                            (with 
+                                            <a href="https://www.elembergman.com/" class="underline">Ezequiel Garcia-Lembergman</a>
+                                            )
+                                        </span>
+                                    </div>
+                                    <i class="fa fa-solid fa-chevron-down chevron-icon"></i>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="collapse mt-3" id="secondWorkInProgressCollapse">
+                        
                         </div>
                     </div>
                 </div>
