@@ -42,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active"  aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html#research">Research</a>
@@ -51,13 +51,14 @@
                         <a class="nav-link active" aria-current="page" href="teaching.html">Teaching</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="discussions.html">Discussions</a>
+                        <a class="nav-link active" style="font-weight:bold" aria-current="page" href="discussions.html">Discussions</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-primary h-100">
-                            <a target="_blank" style="color:white" download="leticia-juarez-cv" href="cv.html">CV</a>
-                            <i class="fa-thin fas fa-arrow-down"></i>
-                        </button>
+                        <a href="cv.html">
+                            <button type="button" class="btn btn-primary h-100">
+                                CV
+                            </button>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -65,8 +66,20 @@
     </nav>
 
     <div class="container-lg mt-5">
-        <iframe id="iframepdf" class="w-100" style="height:100vh" src="pdf/CV_LeticiaJuarez_Michigan.pdf"></iframe>
+        <h2 class="main-title">Discussions</h1>
+        <div class="d-flex flex-column">
+            <div class="discussion-block mb-5">
+                <p class="about-me3"> Discussion #1 </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quaerat ducimus cum quo laudantium fugiat veritatis cupiditate explicabo, ratione quae quasi, eaque magnam, sit dolor odit perferendis esse commodi veniam!</p>
+            </div>
+            <div class="discussion-block">
+                <p class="about-me3"> Discussion #2 </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quaerat ducimus cum quo laudantium fugiat veritatis cupiditate explicabo, ratione quae quasi, eaque magnam, sit dolor odit perferendis esse commodi veniam!</p>
+            </div>
+        </div>
     </div>
+        
+
 
     <!--Scripts necesarios para bootstrap, no modificar-->
 	<script type="module">
