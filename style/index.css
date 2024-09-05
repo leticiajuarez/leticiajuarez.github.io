@@ -10,7 +10,7 @@ p {
     color:#515155;
 }
 
-p#abs {
+.abs {
     font-size:0.9rem;
     /*color:#39393d;*/
     color:#515155;
@@ -324,6 +324,19 @@ a {
     a {
         font-size:1rem;
     }
+}
+
+.discussions-title {
+    color: rgba(33, 33, 33, 1);
+    font-family: Lato, sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 1.6667;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+    text-decoration: underline !important;
 }
 
 @media only screen and (max-width: 1399px) {
