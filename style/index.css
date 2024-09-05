@@ -155,7 +155,8 @@ a {
 .sub{
     font-size:1.0rem;
     font-family: italic; 
-    color:#977BBA;
+    color:#d3dded;
+    /*color:#977BBA;*/
     text-decoration:underline;
 }
 
