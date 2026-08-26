@@ -27,6 +27,32 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/index.css">
+    <style>
+        .research-detail {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+
+        .research-detail .research-img {
+            margin-right: 0;
+            object-fit: contain;
+            background-color: #fff;
+            border: 1px solid rgba(50, 62, 155, 0.12);
+            padding: 0.25rem;
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .research-detail {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .research-detail .research-img {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -279,33 +305,128 @@
                 </div>
             </div>
 
-            <p class="about-me2 mt-3">Work in Progress</p>
-                <!-- First Work in Progress -->
-                
-                <div class="research-block mb-4">
-                    <div class="card-body">
-                        <ul class="mb-0" data-bs-toggle="collapse" href="#secondWorkInProgressCollapse" role="button" aria-expanded="false" aria-controls="secondWorkInProgressCollapse">
-                            <li>
-                                <div class="d-flex justify-content-between align-items-center research-container">
-                                    <div>
-                                        <a class="paper" target="_blank" href="">
-                                            General Equilibrium Effects of Production Networks and Environmental Policies
-                                        </a> 
+            <!-- Fifth Paper -->
+            <div class="research-block mb-4">
+                <div class="card-body">
+                    <ul class="mb-0" role="button" aria-expanded="false" aria-controls="fifthPaperCollapse">
+                        <li>
+                            <div class="d-flex justify-content-between align-items-center research-container">
+                                <div class="d-flex flex-wrap">
+                                    <p class="paper" target="_blank">
+                                        Optimal Transit Networks in Developing Countries
                                         <span class="authors">
-                                            (with 
-                                            <a href="https://www.elembergman.com/" class="underline">Ezequiel Garcia-Lembergman</a>
+                                            (joint with
+                                            <a href="https://www.romandavidzarate.com/" target="_blank" rel="noopener noreferrer" class="underline">Román David Zárate</a>
+                                            and
+                                            <a href="https://jordanmosqueda.github.io/" target="_blank" rel="noopener noreferrer" class="underline">Jordán Mosqueda</a>
                                             )
                                         </span>
-                                    </div>
-                                    <i class="fa fa-solid fa-chevron-down chevron-icon"></i>
+                                    </p>
                                 </div>
-                            </li>
-                        </ul>
-                        <div class="collapse mt-3" id="secondWorkInProgressCollapse">
-                        
+                                <i data-bs-toggle="collapse" href="#fifthPaperCollapse" class="fa fa-solid fa-chevron-down chevron-icon"></i>
+                            </div>
+                            <div class="d-flex">
+                                <a class="underline" data-bs-toggle="collapse" href="#fifthPaperCollapse">[Abstract]</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="collapse mt-3" id="fifthPaperCollapse">
+                        <div class="research-detail">
+                            <img class="research-img" src="img/optimal_transit_network.jpg" alt="Metro stations and surrounding combi stops in Mexico City">
+                            <p class="abs">
+                                Abstract: Transit policy in developing cities is typically studied through formal public infrastructure, even though privately operated and informal transit systems provide much of urban connectivity. We develop a model of optimal commuting networks that incorporates multiple transit technologies. In the model, a planner allocates infrastructure across links and chooses among technologies subject to a budget. The optimal technology on each link depends on the interaction between fixed costs, marginal social costs, and equilibrium commuting flows. To quantify the role of technology choice in optimal network design, we apply the framework to Mexico City, where formal mass transit and privately operated minibuses coexist within the same commuting system. Using unique data on the universe of formal and private transit routes, commuting flows, wages, and land use, we study optimal budget-feasible network expansions. We find that a 50% increase in the infrastructure budget raises welfare by 1.33% when expansion is restricted to public mass transit and by 1.59% when both public and private transit can expand optimally, increasing the welfare gains from infrastructure investment by approximately 20%. The additional gains come from deploying lower-fixed-cost private transit on links where mass transit is not cost-effective. Technology choice also changes the geography of the optimal network: links that are optimally served by private transit are often left entirely unserved when the planner is restricted to mass transit. Optimal investments primarily improve connections from peripheral neighborhoods to productive outer employment centers and to the existing network. The results show that technology choice is central to optimal commuting network design, especially in cities where formal and informal transit systems coexist.
+                            </p>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Sixth Paper -->
+            <div class="research-block mb-4">
+                <div class="card-body">
+                    <ul class="mb-0" role="button" aria-expanded="false" aria-controls="sixthPaperCollapse">
+                        <li>
+                            <div class="d-flex justify-content-between align-items-center research-container">
+                                <div class="d-flex flex-wrap">
+                                    <p class="paper" target="_blank">
+                                        Cleaning Up or Passing the Buck? Environmental Spillovers in Production Networks
+                                        <span class="authors">
+                                            (joint with
+                                            <a href="https://www.elembergman.com/" target="_blank" rel="noopener noreferrer" class="underline">Ezequiel Garcia-Lembergman</a>,
+                                            <a href="https://ignaciomarra.com/" target="_blank" rel="noopener noreferrer" class="underline">Ignacio Marra de Artiñano</a>,
+                                            and
+                                            <a href="https://www.christianvolpe.com/" target="_blank" rel="noopener noreferrer" class="underline">Christian Volpe Martincus</a>
+                                            )
+                                        </span>
+                                    </p>
+                                </div>
+                                <i data-bs-toggle="collapse" href="#sixthPaperCollapse" class="fa fa-solid fa-chevron-down chevron-icon"></i>
+                            </div>
+                            <div class="d-flex">
+                                <a class="underline" data-bs-toggle="collapse" href="#sixthPaperCollapse">[Abstract]</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="collapse mt-3" id="sixthPaperCollapse">
+                        <div class="research-detail">
+                            <img class="research-img" src="img/lpoly_ei.png" alt="Supplier energy intensity by buyer energy intensity">
+                            <p class="abs">
+                                Abstract: Most environmental regulations target individual firms, yet the production of their goods spans networks of upstream suppliers. Do clean firms induce cleaner production upstream, or do they shift pollution onto their suppliers? To answer this question, we develop a quantitative model of endogenous production networks and environmental upgrading in which suppliers can tailor the energy intensity of their intermediates to buyer demand. The model nests two opposing mechanisms: cost-driven outsourcing of dirty activities and transmission of clean technology to suppliers. A single parameter determines which channel dominates. We estimate the parameter using a novel dataset linking the universe of firm-to-firm transactions in Uruguay to official energy consumption records. In an event-study design we find that after connecting with a clean buyer, suppliers increase their energy intensity by approximately 5 percent: the outsourcing channel dominates. The effect appears across multiple definitions of clean buyers - ISO-certified firms, firms in the lowest decile of sectoral energy intensity, and multinationals. Calibrating the model to the Uruguayan economy, we estimate a supply-chain leakage rate of 44%, implying that a large part of firm-level environmental upgrading is offset by the reallocation of dirty activities upstream.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="about-me2 mt-3">Work in Progress</p>
+            <!-- First Work in Progress -->
+            <div class="research-block mb-4">
+                <div class="card-body">
+                    <ul class="mb-0">
+                        <li>
+                            <div class="d-flex justify-content-between align-items-center research-container">
+                                <div>
+                                    <p class="paper">
+                                        When the RMB Displaces the Dollar: Exchange Rate Pass-Through in Argentina
+                                        <span class="authors">
+                                            (joint with
+                                            <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=6629" target="_blank" rel="noopener noreferrer" class="underline">Laura Alfaro</a>,
+                                            <a href="https://iiep.economicas.uba.ar/integrantes/bernini-federico/" target="_blank" rel="noopener noreferrer" class="underline">Federico Bernini</a>,
+                                            and
+                                            <a href="https://sites.google.com/site/lucianajuvenal/home" target="_blank" rel="noopener noreferrer" class="underline">Luciana Juvenal</a>
+                                            )
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Second Work in Progress -->
+            <div class="research-block mb-4">
+                <div class="card-body">
+                    <ul class="mb-0">
+                        <li>
+                            <div class="d-flex justify-content-between align-items-center research-container">
+                                <div>
+                                    <p class="paper">
+                                        The Occupational Structure of Firms
+                                        <span class="authors">
+                                            (joint with
+                                            <a href="https://anahid-bauer.github.io/" target="_blank" rel="noopener noreferrer" class="underline">Anahid Bauer</a>
+                                            and
+                                            <a href="https://elizaforsythe.web.illinois.edu/" target="_blank" rel="noopener noreferrer" class="underline">Eliza Forsythe</a>
+                                            )
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!--Scripts necesarios para bootstrap, no modificar-->
