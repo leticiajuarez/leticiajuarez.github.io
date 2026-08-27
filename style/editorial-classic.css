@@ -236,7 +236,9 @@ body.editorial-classic .research-detail {
     align-items: flex-start;
     background: var(--surface);
     border-left: 4px solid var(--accent-2);
+    display: grid !important;
     gap: 1.4rem;
+    grid-template-columns: minmax(390px, 0.58fr) minmax(0, 0.42fr);
     margin-top: 0.75rem;
     padding: 1rem;
 }
@@ -245,10 +247,10 @@ body.editorial-classic .research-img {
     border-radius: 3px;
     height: fit-content;
     margin-right: 0;
-    max-width: 520px;
-    min-width: 300px;
+    max-width: none;
+    min-width: 0;
     object-fit: contain;
-    width: 45%;
+    width: 100%;
 }
 
 body.editorial-classic .abs {
@@ -367,6 +369,7 @@ body.editorial-classic #iframepdf {
 @media only screen and (max-width: 1200px) {
     body.editorial-classic .collapse > .d-flex,
     body.editorial-classic .research-detail {
+        display: flex !important;
         flex-direction: column;
     }
 
