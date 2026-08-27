@@ -23,11 +23,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900&display=swap" rel="stylesheet">
     
 
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/editorial-classic.css">
 </head>
-<body>
+<body class="editorial-classic">
 
 
     <nav class="navbar my-nav-bar sticky-top navbar-expand-lg ">
@@ -65,7 +69,10 @@
     </nav>
 
     <div class="container-lg mt-5">
-        <iframe id="iframepdf" class="w-100" style="height:100vh" src="pdf/CV_LeticiaJuarez_Michigan.pdf"></iframe>
+        <h1 class="main-title page-title">CV</h1>
+        <div class="cv-frame">
+            <iframe id="iframepdf" class="w-100" src="pdf/CV_LeticiaJuarez_Michigan.pdf"></iframe>
+        </div>
     </div>
 
     <!--Scripts necesarios para bootstrap, no modificar-->
